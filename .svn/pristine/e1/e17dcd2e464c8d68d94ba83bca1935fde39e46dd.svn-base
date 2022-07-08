@@ -1,0 +1,27 @@
+#site_container {
+    // background: center/contain no-repeat url("../../Asset/BG_Page03to08.jpg");
+    height: 100vh;
+    z-index: 1221;
+    padding: 0;
+    margin-top: 20px;
+    min-width: 1200px !important;
+    // position: absolute;
+
+    .banner {
+        z-index: 10;
+        opacity: 1;
+        width: 1100px;
+    }
+
+    .owl-carousel {
+
+        min-width: 1200px;
+
+    }
+}
+
+// @media screen and (max-width:900px) {
+//     #site_container {
+//         min-width: 1000px;
+//     }
+// }

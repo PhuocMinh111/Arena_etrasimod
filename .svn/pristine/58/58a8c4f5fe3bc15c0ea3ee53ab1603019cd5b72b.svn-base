@@ -1,0 +1,31 @@
+
+var owl = $(".owl-carousel")
+var slide3 = $('owl-carousel .slide-3')
+$(document).ready(function () {
+    owl.owlCarousel({
+        items: 1,
+        center: true,
+        // dots: true,
+        // nav: true,
+        smartSpeed: 1000,
+    });
+});
+$('.click_area .next').click(function () {
+    owl.trigger('to.owl.carousel', 3, [1000]);
+    setTimeout(() => {
+        $('#nav').addClass('show');
+    }, 1000)
+})
+
+
+$('.click_area .prev').click(function () {
+    owl.trigger('prev.owl.carousel');
+});
+$('#nav #nav-click .next').click(function () {
+
+    owl.trigger('next.owl.carousel');
+})
+$('#nav #nav-click .prev').click(function () {
+
+    owl.trigger('prev.owl.carousel');
+})

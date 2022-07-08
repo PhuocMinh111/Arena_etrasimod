@@ -2,20 +2,34 @@
     // background: center/contain no-repeat url("../../Asset/BG_Page03to08.jpg");
     height: 100vh;
     z-index: 1221;
-    max-width: 1100px;
+    padding: 0;
+    margin-top: 0px;
+    min-width: 1200px !important;
     // position: absolute;
 
-    img {
-        z-index: 123123;
+    .banner {
+        z-index: 10;
         opacity: 1;
-        width: 100%;
+        width: 1100px;
     }
 
     .owl-carousel {
 
-        min-width: 1100px;
+        min-width: 1200px;
 
     }
+}
+
+.text-left {
+    transform: translateX(100px);
+}
+
+.text-right {
+    transform: translateX(-100px);
+}
+
+.text-show {
+    transform: translateX(0)
 }
 
 // @media screen and (max-width:900px) {

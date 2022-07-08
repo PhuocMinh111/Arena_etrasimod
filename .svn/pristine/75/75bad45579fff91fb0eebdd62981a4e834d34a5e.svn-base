@@ -1,0 +1,3 @@
+@import "./global/_global.scss";
+@import "./components/_index";
+@import './global/_mixin'

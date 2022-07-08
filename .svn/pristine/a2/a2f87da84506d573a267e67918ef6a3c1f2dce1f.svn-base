@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>b4</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div id="site-hero" class="hero" background="./Asset/etrasimod-bg.jpg">
+        <img src="./Asset/etrasimod-bg.jpg" alt="">
+    </div>
+    <div id="site_container" class="container mx-auto">
+
+        <div class="owl-carousel">
+            <div id="page-1" class="slide-1 my-auto">
+                <img class="banner" src="Asset/BG_Page01.jpg" alt="container" srcset="">
+                <div class="container menu">
+                    <!-- <img src="./Asset/game_All_Pfizer_4.png" alt=""> -->
+                </div>
+                <div class="click_area row mx-auto">
+                    <div class="prev col-md-6"></div>
+                    <div class="next col-md-6"></div>
+                </div>
+            </div>
+
+
+
+            <!----page---->
+            <div class="">
+                <img class="banner" src="Asset/BG_Page03to08.jpg" alt="container" srcset="">
+            </div>
+
+
+            <!----page---->
+            <div id="page-3" class="slide-3">
+                <img class="banner" src="Asset/BG_Page03to08.jpg" alt="container" srcset="">
+            </div>
+
+
+            <!----page---->
+
+            <div id="page-4" class="">
+
+                <div class="content">
+                    <img style='z-index:100' src="./Asset/Content_p10.png" alt="">
+                </div>
+            </div>
+
+
+            <!----page 5----->
+            <div id="page-5" class="" id="slide-5">
+                <img src="Asset/BG_Page10to14.jpg" class="banner" alt="container" srcset="">
+                <div class="content">
+                    <img src="./Asset/Content_p11.png" alt="" srcset="">
+                </div>
+            </div>
+
+
+
+            <!----page 5----->
+
+            <div id="page-6" class="" id="slide-5">
+                <img src="Asset/BG_Page10to14.jpg" class="banner" alt="container" srcset="">
+                <div class="content">
+                    <img src="./Asset/Content_p11.png" alt="" srcset="">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="" id="nav">
+        <img src="./Asset/_nav.png" alt="">
+        <div class="row" id="nav-click">
+            <div class="prev col-4"></div>
+            <div class="home col-4"></div>
+            <div class="next col-4"></div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

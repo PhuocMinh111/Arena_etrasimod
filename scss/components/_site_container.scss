@@ -1,35 +1,36 @@
 #site_container {
-    // background: center/contain no-repeat url("../../Asset/BG_Page03to08.jpg");
-    height: 100vh;
-    z-index: 1221;
-    padding: 0;
-    margin-top: 0px;
-    min-width: 1200px !important;
-    // position: absolute;
+  // background: center/contain no-repeat url("../../Asset/BG_Page03to08.jpg");
+  height: 100vh;
+  z-index: 1221;
+  padding: 0;
+  margin-top: 0px;
+  min-width: 1200px !important;
+  // position: absolute;
 
-    .banner {
-        z-index: 10;
-        opacity: 1;
-        width: 1100px;
-    }
+  .banner {
+    z-index: 10;
+    opacity: 1;
+    width: 1100px;
+  }
 
-    .owl-carousel {
-
-        min-width: 1200px;
-
-    }
+  .owl-carousel {
+    min-width: 1200px;
+  }
 }
 
 .text-left {
-    transform: translateX(100px);
+  transform: translateX(250px);
+  opacity: 0;
 }
 
 .text-right {
-    transform: translateX(-100px);
+  transform: translateX(-250px);
+  opacity: 0;
 }
 
 .text-show {
-    transform: translateX(0)
+  transform: translateX(0);
+  opacity: 1;
 }
 
 // @media screen and (max-width:900px) {
